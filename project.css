@@ -1,0 +1,178 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .parent-container {
+    padding: 70px;
+  }
+  
+  .first-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .inside-image {
+    background-image: url('/images/cleaner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+  }
+  
+  .left-part > h2 {
+    padding: 20px;
+  }
+  
+  .left-part > p {
+    padding: 20px;
+    line-height: 1.5;
+  }
+  
+  .right-part {
+    background-color: rgb(0, 0, 0, 0.5);
+  }
+  
+  .right-heading > h2 {
+    padding: 20px;
+  }
+  
+  .right-heading > p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 11px;
+  }
+  
+  .input-type {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-type > input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .input-type :nth-child(4) {
+    background-color: #8dc641;
+    color: white;
+  }
+  
+  .third-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+  
+  
+  .third-container > div > h5 {
+    padding: 20px;
+  }
+  
+  .svg-details{
+    padding-top: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .svg {
+      /* border: 1px solid black; */
+      padding-top: 25px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      text-align: center;
+      background-color: #f9f4f6;
+    }
+  
+  .svg > svg {
+    fill: #00c6bd;
+    
+  }
+  
+  
+  
+  .fourth-container {
+    margin-top: 40px;
+    background-color: #f3f3f3;
+    /* border: 1px solid black; */
+    /* padding: 20px; */
+  }
+  
+  .fourth-container > div > h2 {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .review-images {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+  }
+  
+  .reviews {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .name {
+    padding: 10px;
+    border-bottom: 1px solid black;
+  }
+  
+  .reviews-made {
+    padding-top: 10px;
+  }
+  
+  .fifth-container {
+    background-color: #4c4c4c;
+    color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+  }
+  
+  @media screen and (max-width: 768px) {
+      .inside-image{
+          display: flex;
+          flex-direction: column;
+          background-size: cover;
+          margin: 0px;
+          text-align: center;
+      }
+  
+      .parent-container {
+          padding: 0px;
+        }
+      
+      .third-container{
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .reviews{
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .name{
+          border-bottom: 1px solid black;
+      }
+  }
+  
+  
+  
